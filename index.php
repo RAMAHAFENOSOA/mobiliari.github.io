@@ -14,8 +14,8 @@
     <?php include "./includes/products.php" ?>
     <?php include "./includes/sale.php" ?>
     <?php include "./includes/contact.php" ?>
-    <script src="./script.js"></script>
     <?php include "./includes/footer.php" ?>
+    <script src="./script.js"></script>
 </body>
 
 </html>
