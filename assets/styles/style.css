@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.logo img {
+  height: 80px; /* Ajuste la hauteur du logo */
+  width: auto; /* Conserve les proportions de l'image */
+  max-width: 150px; /* Optionnel : Limite la largeur maximale si nécessaire */
+  object-fit: contain; /* Assure que l'image conserve ses proportions */
+}
+
+.navbarmenu {
+  width: -webkit-fill-available;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbarmenu ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbarmenu li {
+  margin: 0 10px;
+}
+
+.navbarmenu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url(../../img/sofa_hero.webp);
+  background-size: cover;
+  background-position: center;
+  align-content: center;
+  text-align: end;
+  padding: 4rem;
+}
+
+.hero h1 {
+  font-size: 4em;
+  margin: 10px 0;
+  line-height: 1.2;
+}
